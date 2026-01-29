@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+     <script type="text/javascript" src="/js/ex02.js"></script>
+     <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="exercicios">
+        <h3>Veja outros exercicios:</h3>
+        <ul>
+            <li><a href="ex02.html" target="_blank">ex02: Cotação do dólar</a></li>
+            <li><a href="ex03.html" target="_blank">ex03: Índice IMC</a></li>
+            <li><a href="ex04.html" target="_blank">ex04: Cadastro do usuário</a></li>
+            <li><a href="ex05.html" target="_blank">ex05: Progressão aritmética</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Cotação do dólar</h1>
+        <p>Coloque o valor desejado em reais e a cotação do dólar</p>
+
+        <label for="valor_reais">Informe o valor que deseja converter: </label>
+        <input type="text" id="valor_reais"> <br> <br>
+        <label for="cotação">Informe a cotação do dólar: </label>
+        <input type="text" id="cotação"> <br> <br>
+        <input type="button" id="bt_converter" value="CONVERTER" onclick="converter()">
+        <br>
+        <div id="resultado"></div>
+    </div>
+
+</body>
+</html>

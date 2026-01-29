@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+    <script type="text/javascript" src="/js/ex03.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+     <div class="exercicios">
+        <h3>Veja outros exercicios:</h3>
+        <ul>
+           <li><a href="ex02.html" target="_blank">ex02: Cotação do dólar</a></li>
+            <li><a href="ex03.html" target="_blank">ex03: Índice IMC</a></li>
+            <li><a href="ex04.html" target="_blank">ex04: Cadastro do usuário</a></li>
+            <li><a href="ex05.html" target="_blank">ex05: Progressão aritmética</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>IMC</h1>
+        <p>
+            O IMC (Índice de Massa Corporal) é calculado dividindo o peso pela altura elevada ao quadrado.
+            <ul>
+                <li>Menor que 18,5 é considerado ABAIXO DO PESO</li>
+                <li>Entre 18,5 e 24,9 é considerado NORMAL</li>
+                <li>Entre 25,0 e 29,9 é considerado SOBREPESO</li>
+                <li>Maior que 30 é considerado OBESIDADE</li>
+            </ul>
+        </p>
+
+        <p>
+            <label for="peso">Informe seu peso: </label>
+            <input type="text" id="peso"> <br> <br>
+            <label for="altura">Informe sua altura: </label>
+            <input type="text" id="altura"> <br> <br>
+            <input type="button" id="calcular" value="CALCULAR IMC" onclick="calcularIMC()">
+            <div id="IMC"></div>
+        </p>
+    </div>
+
+
+</body>
+</html>

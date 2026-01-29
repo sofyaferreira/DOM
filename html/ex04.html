@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    <script type="text/javascript" src="/js/ex04.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <div class="exercicios">
+        <h3>Veja outros exercicios:</h3>
+        <ul>
+           <li><a href="ex02.html" target="_blank">ex02: Cotação do dólar</a></li>
+            <li><a href="ex03.html" target="_blank">ex03: Índice IMC</a></li>
+            <li><a href="ex04.html" target="_blank">ex04: Cadastro do usuário</a></li>
+            <li><a href="ex05.html" target="_blank">ex05: Progressão aritmética</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>Cadastro</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Login (Email)</th>
+                    <th>Senhas</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>usuario1@gmail.com</td>
+                    <td>senha123</td>
+                </tr>
+                <tr>
+                    <td>usuario2@gmail.com</td>
+                    <td>senha456</td>
+                </tr>
+                <tr>
+                    <td>usuario3@gmail.com</td>
+                    <td>senha789</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>
+            <label for="usuario">Informe seu login: </label>
+            <input type="text" id="usuario"> <br> <br>
+            <label for="senha">Informe sua senha: </label>
+            <input type="password" id="senha"> <br> <br>
+            <input type="button" id="bt_login" value="CADASTRO" onclick="cadastrar()">
+        </p>
+    </div>
+
+</body>
+</html>
